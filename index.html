@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/Blog/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <title>Vite App</title>
+  <script type="module" crossorigin src="/Blog/assets/index.7a991a0b.js"></script>
+  <link rel="stylesheet" href="/Blog/assets/index.95023eb1.css">
+</head>
+
+<body>
+  <div class="a-cover-background a-cover-background--dark"></div>
+
+  <header class="g-header u-margin-bottom-big-section">
+    <div class="o-wrapper">
+      <div class="g-header__content">
+        <nav class="m-navigation g-header__navigation">
+          <details open>
+            <summary>
+              Páginas
+            </summary>
+            <ul>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="/">Inicio</a>
+              </li>
+            </ul>
+          </details>
+
+          <details open>
+            <summary class="m-navigation__title">Setup</summary>
+            <ol>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#google-chrome">Google Chrome</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#vs-code">Viasual Studio Code</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#figma">Figma</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#github">Github</a>
+              </li>
+            </ol>
+          </details>
+
+          <details open>
+            <summary class="m-navigation__title">
+              Conceptos esenciales del Desarrollo web
+            </summary>
+            <ol>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#html">Qué es HTML</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#etiquetas">Etiquetas</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#dom">DOM</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#semantica">Semántica</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#atributos">Atributos</a>
+              </li>
+              <li class="m-navigation__item">
+                <a class="m-navigation__link" href="#css">Qué es CSS</a>
+              </li>
+            </ol>
+          </details>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="o-main">
+    <div class="o-wrapper">
+      <header class="main-page-banner">
+        <h1 class="a-heading-primary">Curso esencial de HTML y CSS</h1>
+        <p>
+          Este es el inicio de tu carrera como Desarrollador Web, empezarás
+          aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2
+          aprenderás de componentes y en 3 sobre layouts.
+        </p>
+      </header>
+
+      <hr />
+
+      <div class="g-section-content u-margin-bottom-big-section">
+        <h2 class="a-heading-secondary">Setup</h2>
+        <img class="g-section-content__img" srcset="data:image/png;base64,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 1x, /Blog/assets/google-chrome-3x.c6037e40.png 3x"
+          src="/Blog/assets/google-chrome-3x.c6037e40.png" width="80px" alt="Logo de Google Chrome" title="Logo de Google Chrome" />
+        <h3 class="a-heading-tertiary" id="google-chrome">Google Chrome</h3>
+        <p>
+          Chrome va a ser el navegador que utilizaremos en el curso por su
+          extenso soporte de nuevos estándares y herramientas de desarrollo
+          avanzadas y de amigable uso.
+        </p>
+
+        <img class="g-section-content__img" srcset="data:image/png;base64,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 1x, /Blog/assets/vs-code-3x.8d4d0216.png 3x"
+          src="/Blog/assets/vs-code-3x.8d4d0216.png" width="80px" alt="Logo de Visual Studio Code" title="Logo de Visual Studio Code" />
+        <h3 class="a-heading-tertiary" id="vs-code">Visual Studio Code</h3>
+        <p>
+          Visual Studio Code es el editor de texto más popular y potente del
+          mercado actualmente, su fácil uso y la capacidad de extenderlo por
+          medio de plugins lo hace el complemento perfecto para cualquier
+          programador sin importar el lenguaje en el que se desemvuelva.
+        </p>
+
+        <img class="g-section-content__img" srcset="data:image/png;base64,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 1x, /Blog/assets/figma-3x.8866c8b5.png 3x"
+          src="/Blog/assets/figma-3x.8866c8b5.png" width="80px" alt="Logo de Figma" title="Logo de Figma" />
+        <h3 class="a-heading-tertiary" id="figma">Figma</h3>
+        <p>
+          Figma es una la herramienta más popular en la actualidad para entregar
+          diseños a los desarrolladores para su implementación por su fácil uso
+          porque puede ser usado directamente desde el navegador.
+        </p>
+
+        <img class="g-section-content__img" srcset="/Blog/assets/github-1x.dba933a3.png 1x, /Blog/assets/github-3x.89d6d984.png 3x"
+          src="/Blog/assets/github-3x.89d6d984.png" width="80px" alt="Logo de Github" title="Logo de Github" />
+        <h3 class="a-heading-tertiary" id="github">GitHub</h3>
+        <p>
+          Así como en Facebook te encuentran tus amigos, en Github te encuentran
+          otras programadoras y programadores de todo el mundo, en vez de subir
+          fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open
+          source” o guardarlo de manera privada, Github será esencial para
+          almacenar tu futuro portafolio.
+        </p>
+
+        <blockquote class="a-blockquote">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id animi similique voluptate illo
+            commodi ex,
+            iure nisi cum quo"</p>
+          <p>
+            Walter Torres
+          </p>
+        </blockquote>
+      </div>
+
+      <hr />
+
+      <div class="g-section-content u-margin-bottom-big-section">
+        <h2 class="a-heading-secondary">Conceptos esenciales del Desarrollo Web</h2>
+        <h3 class="a-heading-tertiary" id="html">Qué es HTML</h3>
+        <p>
+          Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el
+          componente más básico de la web. Define el significado y la estructura
+          del contenido.
+        </p>
+        <pre class="a-cover-background a-cover-background--pre">
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+                
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+        <h3 class="a-heading-tertiary" id="etiquetas">Etiquetas</h3>
+        <p>
+          Las etiquetas HTML van a ayudarnos a brindar una estructura y
+          semántica al contenido de nuestro website y cada una tiene
+          características y usos diferentes aunque visualmente den un resultado
+          similar.
+        </p>
+
+        <p>
+          Las etiquetas HTML van a ayudarnos a brindar una estructura y
+          semántica al contenido de nuestro website y cada una tiene
+          características y usos diferentes aunque visualmente den un resultado
+          similar.
+        </p>
+
+        <h3 class="a-heading-tertiary" id="dom">DOM</h3>
+        <p>
+          El Document Object Model es una estructura de árbol que representará
+          todos nuestros proyectos web como si un árbol genealógico fuera:
+          padres, hijos, hermanos con niveles infinitos. cuando entendemos esta
+          anidación podemos identificar dependencias, herencias en css y que tan
+          complejo es nuestro proyecto.
+        </p>
+        <img srcset="/Blog/assets/dom.1328fdbe.png 676w, /Blog/assets/dom-large.a0d631b0.png 1800w" sizes="(max-width: 900px) 676px, 1800px"
+          src="/Blog/assets/dom-large.a0d631b0.png" alt="css" />
+
+        <h3 class="a-heading-tertiary" id="semantica">Semántica</h3>
+        <p>
+          La semántica le brinda sentido a cada elemento existen en un sitio
+          web, algunos elementos será meramente decorativos y no deben
+          significar nada pero otros serán títulos y deberán estar en diferente
+          jerarquías o alguna secciones serán más relevantes que otras, esto
+          ayudará a los motores de búsqueda como Google o Duck Duck Go a
+          diferenciar tu contenido, categorizar y será la herramientas más
+          valiosa para estar en los primeros resultados de búsqueda SEO. También
+          ayudará a la accesibilidad de tu sitio web, para que personas con
+          habilidades diferentes puedan entender cada contenido.
+        </p>
+
+        <h3 class="a-heading-tertiary" id="atributos">Atributos</h3>
+        <p>
+          Los atributos le dan características extra a las etiquetas para
+          complementar información y son pre programadas por el navegador,
+          algunos atributos funcionan en todas las etiquetas de la misma forma
+          como ‘class’ pero otros atributos funcionan en solo alguna etiquetas
+          como src
+        </p>
+
+        <h3 class="a-heading-tertiary" id="css">CSS</h3>
+        <p>
+          Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS
+          es el lenguaje de estilos utilizado para describir la presentación de
+          documentos HTML
+        </p>
+        <img srcset="./img/css.png 318w, ./img/css-large.png 1272w" sizes="(max-width: 900px) 318px, 1000px"
+          src="./img/css-large.png" alt="css" />
+      </div>
+
+      <div class="g-section-content">
+        <h2 class="a-heading-secondary">Modelo de caja</h2>
+
+        <h3 class="a-heading-tertiary">
+          El modelo de caja está compuesto por:
+        </h3>
+        <p>
+          Chrome va a ser el navegador que utilizaremos en el curso por su
+          extenso soporte de nuevos estándares y herramientas de desarrollo
+          avanzadas y de amigable uso.
+        </p>
+
+        <ol>
+          <li>Tamaño del del contenido / ancho y alto</li>
+          <li>Padding / Relleno</li>
+          <li>Border / Bordes</li>
+          <li>Margin / Márgenes</li>
+        </ol>
+
+        <h3 class="a-heading-tertiary">
+          Propiedades físicas para el modelo de caja:
+        </h3>
+
+        <ul>
+          <li>width / height</li>
+          <li>
+            margin / margin-top | margin-right | margin-bottom | margin-left
+          </li>
+          <li>
+            border / border-top | border-right | border-bottom | border-left
+          </li>
+          <li>
+            padding / padding-top | padding-right | padding-bottom |
+            padding-left
+          </li>
+        </ul>
+
+        <h3 class="a-heading-tertiary">
+          Propiedades lógicas para el modelo de caja:
+        </h3>
+        <ul>
+          <li>inline-size / block-size</li>
+          <li>
+            margin-block | margin-inline | margin-block-start | margin-block-end
+            | margin-inline-start | margin-inline-end
+          </li>
+          <li>
+            border-block | border-inline | border-block-start | border-block-end
+            | border-inline-start | border-inline-end
+          </li>
+          <li>
+            padding-block | padding-inline | padding-block-start |
+            padding-block-end | padding-inline-start | padding-inline-end
+          </li>
+        </ul>
+      </div>
+
+      <p>Si tienes alguna pregunta escríbeme a me@leonidasesteban.com</p>
+    </div>
+
+
+  </main>
+  
+</body>
+
+</html>
